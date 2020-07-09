@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewListNote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/MarginSpace"
+        android:layout_marginTop="@dimen/MarginSpace"
+        android:layout_marginRight="@dimen/MarginSpace"
+        android:layout_marginBottom="@dimen/MarginSpace"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="@dimen/MarginSpaceEmpty">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/MarginLayoutCardH"
+            android:background="@drawable/bg_cardview"
+            android:orientation="vertical"
+            android:padding="@dimen/PaddingSpace">
+
+            <TextView
+                android:id="@+id/textView_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_title"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/FontSizeTitle" />
+
+            <TextView
+                android:id="@+id/textView_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_description"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/FontSizeDescription" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

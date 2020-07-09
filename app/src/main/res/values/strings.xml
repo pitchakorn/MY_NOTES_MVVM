@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MY_NOTES_MVVM</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_description">Description</string>
+    <string name="btn_save_note">save note</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="FontSizeTitle">20sp</dimen>
+    <dimen name="FontSizeDescription">24sp</dimen>
+
+    <dimen name="MarginFloatingActionButton">16dp</dimen>
+    <dimen name="MarginEditText">20dp</dimen>
+    <dimen name="MarginButtonSave">40dp</dimen>
+    <dimen name="MarginSpace">8dp</dimen>
+    <dimen name="MarginSpaceEmpty">0dp</dimen>
+    <dimen name="MarginLayoutCardH">80dp</dimen>
+
+    <dimen name="PaddingSpace">8dp</dimen>
+
+</resources>
